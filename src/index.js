@@ -4,7 +4,7 @@ const toml = require("toml");
 const { Category } = require("./classes/Category");
 
 /* Chargement de la configuration */
-if (fs.existsSync("../configuration.toml")) {
+if (!fs.existsSync("./configuration.toml")) {
   console.error("Configuration file not found !");
   process.exit(-1);
 }
