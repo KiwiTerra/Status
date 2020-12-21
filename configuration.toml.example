@@ -1,0 +1,18 @@
+token = 'Discord token'
+guild = 'Guild id'
+channel = 'Channel id'
+
+[status]
+    [status.first]
+        name = "Première catégorie"
+        servers = [
+            ["Google", "google.fr", "google.com", "google.be"],
+            ["Facebook", "facebook.com", "179.60.192.36"],
+            ["Discord", "162.159.135.232"]
+        ]
+    [status.second]
+        name = "Seconde catégorie"
+        servers = [
+            ["Cloudflare", "1.1.1.1", "1.0.0.1"],
+            ["Google", "8.8.8.8", "8.8.4.4"]
+        ]

@@ -1,0 +1,16 @@
+{
+  "name": "status",
+  "version": "1.0.0",
+  "description": "A simple status for discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "KiwiTerra",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ping": "^0.3.0",
+    "toml": "^3.0.0"
+  }
+}
